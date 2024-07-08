@@ -1,0 +1,55 @@
+{
+  "NumberOfPlayers" : 4,
+  "BoardSize" : 100,
+  "NumberOfDice" : 2,
+  "NumberOfSnakes" : 5,
+  "SnakePositions" : [
+    {
+      "StartPoint" :12,
+      "EndPoint" :1
+    },
+    {
+      "StartPoint" :30,
+      "EndPoint" :7
+    },{
+      "StartPoint" :98,
+      "EndPoint" :42
+    },{
+      "StartPoint" :77,
+      "EndPoint" :15
+    },{
+      "StartPoint" :67,
+      "EndPoint" :21
+    }
+  ],
+  "NumberOfLadders" : 5,
+  "LadderPositions" : [
+    {
+      "StartPoint" :9,
+      "EndPoint" :29
+    },
+    {
+      "StartPoint" :36,
+      "EndPoint" :91
+    },{
+      "StartPoint" :55,
+      "EndPoint" :89
+    },{
+      "StartPoint" :40,
+      "EndPoint" :61
+    },{
+      "StartPoint" :79,
+      "EndPoint" :89
+    }
+  ],
+  "MovementStrategy" : "SUM",
+  "NumberOfCrocodiles" : 2,
+  "CrocodilePositions" : [
+    {
+      "Position" :87
+    },
+    {
+      "Position" :56
+    }
+  ]
+}
